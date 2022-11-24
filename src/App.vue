@@ -30,13 +30,9 @@ export default {
         document.body.classList.remove("night-theme");
       }
 
-      useObserver(
-        headerRef.value.$el,
-        (el) => {
-          el.target.classList.add("animated");
-        },
-        { threshold: 0.5 }
-      );
+      useObserver(headerRef.value.$el, (el) => {
+        el.target.classList.add("animated");
+      });
     });
 
     return {

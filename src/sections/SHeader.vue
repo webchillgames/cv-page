@@ -60,9 +60,7 @@
 
 <script>
 import { SOCIALS, PERSONAL } from "@/data.js";
-
 import { t } from "@/js/translate.js";
-
 import PageSettings from "@/components/PageSettings.vue";
 
 export default {
@@ -71,7 +69,6 @@ export default {
     return {
       PERSONAL,
       SOCIALS,
-      PageSettings,
       t,
     };
   },
@@ -162,15 +159,17 @@ export default {
 
     .hoverable {
       position: relative;
+      display: inline-block;
+      vertical-align: baseline;
 
       &::before {
         position: absolute;
         content: "";
-        bottom: -8px;
+        bottom: -4px;
         left: 0;
         width: 100%;
-        background-color: #fff;
-        height: 2px;
+        background-color: rgba(#fff, 0.5);
+        height: 1px;
         transition: transform 0.3s ease-in-out;
         transform: scale(0);
         transform-origin: right;

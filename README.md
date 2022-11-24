@@ -1,35 +1,22 @@
-# cv-page
+# Hello, friends! I'm Anna. I can make web pages
 
-This template should help get you started developing with Vue 3 in Vite.
+## This repo contains my CV
 
-## Recommended IDE Setup
+## Benefits:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Translated into 2 languages (russian, english)
+- Has night (dark) mode
+- All animations created on my own
+- You can download my CV into PDF format
 
-## Customize configuration
+### Technology stack:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
 
-## Project Setup
+https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
 
-```sh
-npm install
-```
+https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white
 
-### Compile and Hot-Reload for Development
+https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D

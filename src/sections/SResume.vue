@@ -63,6 +63,7 @@ export default {
   font-size: 14px;
   line-height: 20px;
   padding-top: 50px;
+  padding-bottom: 50px;
 
   ul {
     @include list-reset;

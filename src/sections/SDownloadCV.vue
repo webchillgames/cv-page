@@ -1,17 +1,11 @@
 <template>
   <section class="s-download-cv">
     <div class="wrapper">
-      <WritingTitle text="Здравствуйте" />
-      <!-- <h2 class="section-title">Здравствуйте_</h2> -->
-      <p>
-        Я Junior Frontend developer. У меня есть опыт работы, как из офиса так и
-        удаленно. Мой стек Vue, Pinia, Vue-router, SCSS, Animations, дополненная
-        реальность, JS, HTML, БЭМ. Смогу сверстать лендинг, и приложение с
-        логикой/запросами на сервер. Есть некоторая насмотренность в дизайне.
-      </p>
+      <WritingTitle :text="t('cv.title')" />
+      <p>{{ t("cv.text") }}</p>
 
       <div class="s-download-cv__btn">
-        <a href="" download>Скачать CV</a>
+        <a href="" download>{{ t("cv.btn") }}</a>
       </div>
     </div>
   </section>
@@ -19,12 +13,15 @@
 
 <script>
 import WritingTitle from "@/components/WritingTitle.vue";
+import { t } from "@/js/translate.js";
+
 export default {
   components: { WritingTitle },
-  // setup() {
-  //   return {
-  //   };
-  // },
+  setup() {
+    return {
+      t,
+    };
+  },
 };
 </script>
 
@@ -97,5 +94,9 @@ export default {
     color: #fff;
     text-decoration: none;
   }
+}
+
+.night-theme .s-download-cv {
+  border-bottom: 1px solid rgba(#fff, 0.1);
 }
 </style>

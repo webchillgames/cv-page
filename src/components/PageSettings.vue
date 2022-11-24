@@ -36,8 +36,6 @@
 </template>
 
 <script>
-import { appLang } from "@/js/translate.js";
-
 import { computed, ref } from "vue";
 
 import { useMainStore } from "@/stores/main.js";
@@ -49,9 +47,10 @@ export default {
     const mainStore = useMainStore();
 
     const appTheme = computed(() => mainStore.appTheme);
+    const appLang = computed(() => mainStore.appLang);
 
     function setLang(lang) {
-      appLang.value = lang;
+      mainStore.changeLang(lang);
     }
 
     function setTheme(type) {

@@ -4,7 +4,7 @@
     "personal.location": "Moscow",
 
     "cv.title": "Hello",
-    "cv.text": "I'm a Junior Frontend developer. У меня есть опыт работы, как из офиса так и удаленно. Мой стек Vue, Pinia, Vue-router, SCSS, Animations, дополненная реальность, JS, HTML, БЭМ. Смогу сверстать лендинг, и приложение с логикой/запросами на сервер. Есть некоторая насмотренность в дизайне.",
+    "cv.text": "I have an experience of work from home and remote. My technology stack: Due, Pinia, Due-router, SCSS, WEB Animations, Augment reality. I can create landing pages and an app with a functionality. I’m interesting in web design.",
     "cv.btn": "Download CV",
 
     "education.title": "EDUCATION AND INTERNSHIPS",
@@ -15,7 +15,7 @@
     "education.item1.course": "Profession Frontend developer",
 
     "education.item2.period": "November, 2021",
-    "education.item2.course": "React JS. Практический Курс 2020 (вкл. Хуки, Классы, Redux)",
+    "education.item2.course": "React JS. Practical Course 2020 (Hooks, Classes, Redux)",
 
     "education.item3.period": "November, 2022",
     "education.item3.course": "WEB Animations",
